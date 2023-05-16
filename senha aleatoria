@@ -1,1 +1,17 @@
+import random
+
+minusculo = "abcdefghijklmnopqrstuvxzw"
+maiusculo = "ABCDEFGHIJKLMNOPQRSTUVXZW"
+numero = "1234567890"
+simb = "[]{}#@()*;.-_"
+
+combinacao = minusculo + maiusculo + numero + simb
+
+tamanho = 9
+
+
+senha = "".join(random.sample(combinacao,tamanho))
+
+print("senha gerada com sucesso para shirley fernandes: ", senha)
+
 
